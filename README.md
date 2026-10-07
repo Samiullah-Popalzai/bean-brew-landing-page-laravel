@@ -1,58 +1,181 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Bean & Brew Landing Page — Laravel
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A responsive coffee shop landing page built with **Laravel, Blade, HTML, and CSS**.
 
-## About Laravel
+This project is part of my practical learning journey with Laravel and Express. I built the same project in both frameworks to understand how similar web applications can be structured using the natural tools and architecture of each framework.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🎯 Goal
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+The goal of this project was to build a complete landing page from scratch while strengthening my understanding of **Laravel fundamentals, Blade templating, routing, controllers, assets, HTML, and CSS**.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+I intentionally built the same type of project separately with Laravel and Express so I could understand the differences between the two ecosystems rather than simply copying the same architecture from one framework to the other.
 
-## Learning Laravel
+## 🔗 Project Versions
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Laravel
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+https://github.com/Samiullah-Popalzai/bean-brew-landing-page-laravel
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+### Express.js
 
-## Agentic Development
+https://github.com/Samiullah-Popalzai/bean-brew-landing-page-express
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+## ✨ Features
 
-```bash
-composer require laravel/boost --dev
+- Promotional banner
+- Responsive navigation
+- Hero section
+- About Us section
+- Featured Coffee section
+- Why Choose Us section
+- Customer testimonials
+- Call to action section
+- Contact section
+- Footer
+- Responsive design for desktop, tablet, and mobile
+- Custom coffee-themed visual design
 
-php artisan boost:install
+## 🛠️ Tech Stack
+
+- PHP
+- Laravel
+- Blade
+- HTML5
+- CSS3
+
+No frontend CSS framework was used.
+
+## 📁 Project Structure
+
+```text
+bean-brew-landing-page-laravel/
+├── app/
+│   └── Http/
+│       └── Controllers/
+│           └── PageController.php
+├── public/
+│   ├── css/
+│   │   └── style.css
+│   └── images/
+├── resources/
+│   └── views/
+│       ├── layouts/
+│       │   └── app.blade.php
+│       └── pages/
+│           └── home.blade.php
+├── routes/
+│   └── web.php
+├── .gitignore
+├── README.md
+└── ...
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+## 🚀 Getting Started
 
-## Contributing
+### Requirements
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Make sure you have installed:
 
-## Code of Conduct
+- PHP
+- Composer
+- Laravel
+- A database is not required for this landing page
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Clone the repository
 
-## Security Vulnerabilities
+```bash
+git clone https://github.com/Samiullah-Popalzai/bean-brew-landing-page-laravel.git
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Enter the project
 
-## License
+```bash
+cd bean-brew-landing-page-laravel
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Install dependencies
+
+```bash
+composer install
+```
+
+### Start the development server
+
+```bash
+php artisan serve
+```
+
+Then open:
+
+```text
+http://127.0.0.1:8000
+```
+
+## 🧠 What I Practiced
+
+Through this project, I practiced:
+
+- Laravel project structure
+- Routes
+- Controllers
+- Blade templates
+- Blade layouts
+- Blade sections
+- Asset management
+- Serving images and CSS
+- HTML semantic structure
+- CSS layout
+- CSS Grid
+- CSS Flexbox
+- Responsive design
+- Git and GitHub workflow
+
+## 🔄 Express Version
+
+The same Bean & Brew landing page was also built using Express.js.
+
+Full repository URL:
+
+https://github.com/Samiullah-Popalzai/bean-brew-landing-page-express
+
+The two projects intentionally use the natural approach of their respective frameworks rather than forcing identical architectures.
+
+## 👨‍💻 About Me
+
+I'm **Samiullah Popalzai**, a Full Stack Engineer & WordPress Developer from Kabul, Afghanistan.
+
+I work with technologies including:
+
+- PHP
+- Laravel
+- WordPress
+- JavaScript
+- TypeScript
+- Node.js
+- Express.js
+- React
+- MySQL
+- PostgreSQL
+- REST APIs
+- GraphQL
+- Docker
+- HTML
+- CSS
+
+I'm particularly interested in building reliable, secure, maintainable, and performant web applications.
+
+### Links
+
+- GitHub: https://github.com/Samiullah-Popalzai
+- LinkedIn: https://linkedin.com/in/samiullah-popalzai/
+- Portfolio: https://samiullah-popalzai.github.io/
+
+## 📌 Project Status
+
+Completed as a learning project.
+
+The project focuses on understanding the fundamentals of building a landing page with Laravel and comparing that experience with the Express.js implementation.
+
+## 📄 License
+
+No license has been added to this project yet.
