@@ -1,0 +1,72 @@
+:root {
+    --primary: #DC751A;
+    --Secondary: #a67b5b;
+    --Accent: #d4a373;
+    --Background: #f8f3ec;
+    --Surface: #ffffff;
+    --Dark: #2b2118;
+    --Text: #3d342c;
+    --MutedText: #7a6a5d;
+    --Border: #e5d8c8;
+    --Success: #5f7a61;
+
+    /* Typography */
+    --font-size-h1: 56px;
+    --font-size-h2: 40px;
+    --font-size-h3: 28px;
+    --font-size-h4: 22px;
+    --font-size-body: 16px;
+    --font-size-nav: 16px;
+    --font-size-button: 16px;
+    --font-size-small: 14px;
+    --font-size-caption: 12px;
+}
+
+body {
+    background-color: var(--Background);
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    gap: 5px;
+}
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    width: 100%;
+    color: var(--Surface);
+    height: 30px;
+}
+.header-space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: end;
+    width: 80%;
+    background-color: var(--Surface);
+    color: var(--Surface);
+    border-radius: 25px;
+    box-shadow: #2b2118;
+}
+
+.header-space img {
+    height: 50px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    gap: 20px;
+}
+.menu a {
+    font-size: var(--font-size-nav);
+}
