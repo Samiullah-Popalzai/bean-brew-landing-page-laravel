@@ -20,28 +20,38 @@ https://github.com/Samiullah-Popalzai/bean-brew-landing-page-laravel
 
 https://github.com/Samiullah-Popalzai/bean-brew-landing-page-express
 
+## 📸 Screenshots
+
+### Full Page
+
+![Bean & Brew Laravel Full Page](screenshots/full-page.png)
+
+### Hero Section
+
+![Bean & Brew Laravel Hero Section](screenshots/hero-section.png)
+
 ## ✨ Features
 
-- Promotional banner
-- Responsive navigation
-- Hero section
-- About Us section
-- Featured Coffee section
-- Why Choose Us section
-- Customer testimonials
-- Call to action section
-- Contact section
-- Footer
-- Responsive design for desktop, tablet, and mobile
-- Custom coffee-themed visual design
+* Promotional banner
+* Responsive navigation
+* Hero section
+* About Us section
+* Featured Coffee section
+* Why Choose Us section
+* Customer testimonials
+* Call to action section
+* Contact section
+* Footer
+* Responsive design for desktop, tablet, and mobile
+* Custom coffee-themed visual design
 
 ## 🛠️ Tech Stack
 
-- PHP
-- Laravel
-- Blade
-- HTML5
-- CSS3
+* PHP
+* Laravel
+* Blade
+* HTML5
+* CSS3
 
 No frontend CSS framework was used.
 
@@ -55,14 +65,14 @@ bean-brew-landing-page-laravel/
 │           └── PageController.php
 ├── public/
 │   ├── css/
-│   │   └── style.css
-│   └── images/
+│   │   ├── style.css
+│   │   └── images/
 ├── resources/
 │   └── views/
-│       ├── layouts/
-│       │   └── app.blade.php
-│       └── pages/
-│           └── home.blade.php
+│       └── home.blade.php
+├── screenshots/
+│   ├── full-page.png
+│   └── hero-section.png
 ├── routes/
 │   └── web.php
 ├── .gitignore
@@ -76,10 +86,11 @@ bean-brew-landing-page-laravel/
 
 Make sure you have installed:
 
-- PHP
-- Composer
-- Laravel
-- A database is not required for this landing page
+* PHP
+* Composer
+* Laravel
+
+A database is not required for this landing page.
 
 ### Clone the repository
 
@@ -115,20 +126,18 @@ http://127.0.0.1:8000
 
 Through this project, I practiced:
 
-- Laravel project structure
-- Routes
-- Controllers
-- Blade templates
-- Blade layouts
-- Blade sections
-- Asset management
-- Serving images and CSS
-- HTML semantic structure
-- CSS layout
-- CSS Grid
-- CSS Flexbox
-- Responsive design
-- Git and GitHub workflow
+* Laravel project structure
+* Routes
+* Controllers
+* Blade templates
+* Asset management
+* Serving images and CSS
+* HTML semantic structure
+* CSS layout
+* CSS Grid
+* CSS Flexbox
+* Responsive design
+* Git and GitHub workflow
 
 ## 🔄 Express Version
 
@@ -146,35 +155,37 @@ I'm **Samiullah Popalzai**, a Full Stack Engineer & WordPress Developer from Kab
 
 I work with technologies including:
 
-- PHP
-- Laravel
-- WordPress
-- JavaScript
-- TypeScript
-- Node.js
-- Express.js
-- React
-- MySQL
-- PostgreSQL
-- REST APIs
-- GraphQL
-- Docker
-- HTML
-- CSS
+* PHP
+* Laravel
+* WordPress
+* JavaScript
+* TypeScript
+* Node.js
+* Express.js
+* React
+* MySQL
+* PostgreSQL
+* REST APIs
+* GraphQL
+* Docker
+* HTML
+* CSS
 
 I'm particularly interested in building reliable, secure, maintainable, and performant web applications.
 
 ### Links
 
-- GitHub: https://github.com/Samiullah-Popalzai
-- LinkedIn: https://linkedin.com/in/samiullah-popalzai/
-- Portfolio: https://samiullah-popalzai.github.io/
+* GitHub: https://github.com/Samiullah-Popalzai
+* LinkedIn: https://linkedin.com/in/samiullah-popalzai/
+* Portfolio: https://samiullah-popalzai.github.io/
 
 ## 📌 Project Status
 
 Completed as a learning project.
 
 The project focuses on understanding the fundamentals of building a landing page with Laravel and comparing that experience with the Express.js implementation.
+
+## Completed:10/7/2026
 
 ## 📄 License
 
